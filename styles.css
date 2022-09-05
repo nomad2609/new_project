@@ -1,0 +1,182 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f7f9;
+}
+
+header {
+    height: 100px;
+    padding: 0 40px;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fixed-container {
+    max-width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding: 40px;
+}
+
+.first-block {
+    height: 400px;
+}
+
+.first-block h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.first-block h2 {
+    font-size: 35px;
+}
+
+.first-block>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../img/picture.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.services>div {
+    width: 200px;
+}
+
+.services img {
+    width: 150px;
+}
+
+.price-info {
+    background-color: #3d52fe;
+    color: white;
+}
+
+.price-info p {
+    font-size: 80%;
+    width: 50%;
+}
+
+.price-info h2 {
+    width: 50%;
+}
+
+.examples {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.examples>div {
+    width: 300px;
+}
+
+.examples img {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.light-button {
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.dark-button {
+    background-color: #3d52fe;
+    border: 1px solid #3d52fe;
+    color: white;
+}
+
+button {
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header>div>div>a {
+    margin-right: 50px;
+}
+
+.popup-container {
+    background-color: #000000b3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.basement {
+    padding: 40px;
+    flex-direction: row;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer-links>a {
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links img {
+    height: 20px;
+    padding: 30px 30px 0 0;
+}
+
+.basement span {
+    display: flex;
+    padding-bottom: 10px;
+}
